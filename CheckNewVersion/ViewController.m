@@ -23,7 +23,7 @@
 //检查方法
 -(void)checkMethod{
     //2.检查更新
-    [CheckNewVersion checkNewVersionWithAppID:@"1140827531" controller:self];
+    [CheckNewVersion checkNewVersionWithAppID:@"######" controller:self];
     
     [CheckNewVersion checkNewVersionWithAppID:@"" customAlert:^(AppleStoreModelInfo *appInfomation) {
         
